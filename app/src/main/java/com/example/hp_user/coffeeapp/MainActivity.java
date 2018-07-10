@@ -50,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
         String name=n.getText().toString();
         String m="price="+p+" quantity="+q+"name="+name;
 
-        Intent i=new Intent(this,Main2Activity.class);
+        /*Intent i=new Intent(this,Main2Activity.class);
         i.putExtra("mesg",m);
-        startActivity(i);
+        startActivity(i);*/
 
         //Intent intent = new Intent(Intent.ACTION_SENDTO);
         /*intent.setData(Uri.parse("mailto:")); // only email apps should handle this
