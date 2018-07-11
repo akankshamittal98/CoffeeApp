@@ -62,9 +62,8 @@ public class MainActivity extends AppCompatActivity {
 
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);*/
-
-        //TextView s=(TextView)findViewById(R.id.sumary);
-        //s.setText("price="+p+" quantity="+q+"name="+name);
+        TextView s=(TextView)findViewById(R.id.sumary);
+        s.setText("price="+p+" quantity="+q+"name="+name);
         return ;
     }
 }
